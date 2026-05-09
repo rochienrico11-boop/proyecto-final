@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Profesionales - TurnoSalud</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="logo">
+        <img src="../assets/img/logo.jpg" alt="Logo de TurnoSalud">
+        <h1 class="logo-texto">TurnoSalud</h1>
+    </div>
+
+    <nav class="nav">
+        <a href="../index.html">Inicio</a>
+        <a href="../paginas/profesionales.html">Profesionales</a>
+        <a href="../paginas/especialidades.html">Especialidades</a>
+        <a href="../paginas/articulos.html">Artículos</a>
+    </nav>
+
+    <div class="acceso">
+        <a href="../paginas/login.html">Iniciar sesión</a>
+        <a href="../paginas/registro.html">Registrarse</a>
+    </div>
+
+</header>
+
+<!-- CONTENIDO -->
+<main class="main">
+
+<section class="listado">
+
+    <h2>Profesionales disponibles</h2>
+    <p>Elegí el especialista que necesitás</p>
+
+    <!-- FILTRO VISUAL (para futuro JS) -->
+    <div class="filtro">
+        <select id="filtroEspecialidad">
+            <option value="todas">Todas las especialidades</option>
+            <option value="clinica">Clínicas</option>
+            <option value="quirurgica">Quirúrgicas</option>
+            <option value="mixta">Mixtas</option>
+            <option value="diagnostico">Diagnóstico</option>
+        </select>
+    </div>
+
+    <!-- GRID DE PROFESIONALES -->
+    <div class="cards">
+
+        <!-- CLINICA -->
+        <!-- PROFESIONAL 1 -->
+        <article class="card" data-categoria="clinica" data-especialidad="clinica medica">
+            <img src="../assets/img/profesional1.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Juan Pérez</h3>
+            <p>Clínica Médica</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 2-->
+        <article class="card" data-categoria="clinica" data-especialidad="cardiologia">
+            <img src="../assets/img/profesional1.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Juan Perea</h3>
+            <p>Cardiologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 3-->
+        <article class="card" data-categoria="clinica" data-especialidad="endocrinologia">
+            <img src="../assets/img/profesional1.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Juan sanchez</h3>
+            <p>Endocrinologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 4 -->
+        <article class="card" data-categoria="clinica" data-especialidad="dermatologia">
+            <img src="../assets/img/profesional1.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Juan Pérez</h3>
+            <p>Dermatologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 5 -->
+        <article class="card" data-categoria="clinica" data-especialidad="gastroenterologia">
+            <img src="../assets/img/profesional1.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Emilio perez</h3>
+            <p>Gastroenterologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 6 -->
+        <article class="card" data-categoria="clinica" data-especialidad="neurologia">
+            <img src="../assets/img/profesional7.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Nicolás Vega</h3>
+            <p>Neurología</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 7 -->
+        <article class="card" data-categoria="clinica" data-especialidad="neumonologia">
+            <img src="../assets/img/profesional7.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Cecilia sosa</h3>
+            <p>Neumonologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 8 -->
+        <article class="card" data-categoria="clinica" data-especialidad="nutricion">
+            <img src="../assets/img/profesional7.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Nicolas Gomez</h3>
+            <p>Nutricion </p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- QUIRURGICAS -->
+        <!-- PROFESIONAL 1 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="cirugia general">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Cirugia General</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 2 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="cirugia plastica">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Cirugia Plastica</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 3 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="traumatologia">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Traumatologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 4 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="urologia">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Urologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 5 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="neurocirugia">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Neurocirugia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 6 -->
+        <article class="card" data-categoria="quirurgica" data-especialidad="mastologia">
+            <img src="../assets/img/profesional5.png" class="avatar-img" alt="Profesional">
+            <h3>Dr. Martín López</h3>
+            <p>Mastologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- MIXTAS -->
+        <!-- PROFESIONAL 1 -->
+        <article class="card" data-categoria="mixta" data-especialidad="ginecologia">
+            <img src="../assets/img/profesional8.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Ana Torres</h3>
+            <p>Ginecología</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 2 -->
+        <article class="card" data-categoria="mixta" data-especialidad="oftalmologia">
+            <img src="../assets/img/profesional8.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Ana Torres</h3>
+            <p>Oftalmologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 3 -->
+        <article class="card" data-categoria="mixta" data-especialidad="otorrinolaringologia">
+            <img src="../assets/img/profesional8.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Ana Torres</h3>
+            <p>Otorrinolaringologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 4 -->
+        <article class="card" data-categoria="mixta" data-especialidad="dermatologia">
+            <img src="../assets/img/profesional8.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Ana Torres</h3>
+            <p>Dermatologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- DIAGNOSTICO -->
+        <!-- PROFESIONAL 1 -->
+        <article class="card" data-categoria="diagnostico" data-especialidad="kinesiologia">
+            <img src="../assets/img/profesional4.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Laura Fernández</h3>
+            <p>Kinesiologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 2 -->
+        <article class="card" data-categoria="diagnostico" data-especialidad="fonoaudiologia">
+            <img src="../assets/img/profesional4.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Laura Fernández</h3>
+            <p>Fonoaudiologia</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 3 -->
+        <article class="card" data-categoria="diagnostico" data-especialidad="diagnostico por imagenes">
+            <img src="../assets/img/profesional4.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Laura Fernández</h3>
+            <p>Diagnostico por imagenes</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+
+        <!-- PROFESIONAL 4 -->
+        <article class="card" data-categoria="diagnostico" data-especialidad="laboratorio clinico">
+            <img src="../assets/img/profesional4.png" class="avatar-img" alt="Profesional">
+            <h3>Dra. Laura Fernández</h3>
+            <p>Laboratorio Clinico</p>
+            <a href="#" class="btn">Ver perfil</a>
+        </article>
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <!-- IZQUIERDA -->
+    <div>
+        <h4>Enlaces</h4>
+        <a href="../index.html">Inicio</a>
+        <a href="../paginas/profesionales.html">Profesionales</a>
+        <a href="../paginas/especialidades.html">Especialidades</a>
+        <a href="../paginas/articulos.html">Artículos</a>
+    </div>
+
+    <!-- CENTRO -->
+    <div>
+        <h4>TurnoSalud</h4>
+        <p>Gestión de turnos médicos online</p>
+    </div>
+
+    <!-- DERECHA -->
+<div>
+        <h4>Seguinos en redes</h4>
+        <a href="#"><img src="../assets/img/instagram.jpg" alt="Instagram"></a>
+        <a href="#"><img src="../assets/img/facebook.jpg" alt="Facebook"></a>
+        <a href="#"><img src="../assets/img/twitter.jpg" alt="Twitter"></a>
+        <a href="#"><img src="../assets/img/github.jpg" alt="GitHub"></a>
+        <a href="#"><img src="../assets/img/youtube.jpg" alt="YouTube"></a>
+    </div>
+</footer>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
